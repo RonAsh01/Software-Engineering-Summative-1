@@ -27,9 +27,8 @@ Once these requirements had been defined and I was confident that they satisfied
 
 The prototype that I developed included a launch page, that showcased the user input that would be required to generate the relevant visualisations using the API, as well as the interactive buttons that would allow the user to navigate between the different pages. The actions that these perform can be seen below in Figure 1, and are shown by the blue lines that connect   I also included a mock-up to show what the graphs would roughly look like, although, being a prototype, these graphs are static and just for demonstration purposes.
 
-
-
-Figure 1: Figma prototype, including the interactive flow.
+![Prototype](https://github.com/user-attachments/assets/81e69835-b7d5-4542-9220-4e2b611f2a72)
+**Figure 1:** Figma prototype, including the interactive flow.
 
 ### Planning & Project Management
 
@@ -44,8 +43,8 @@ Done - Tasks which have been completed.
 
 Despite being a sole developer on this project, I found that the Kanban board and methodology still aided me in keeping track of outstanding work and tasks, and allowed me to more effectively evaluate my workload which, in turn, helped with planning my work schedule, as I could better understand the quantity of work I had outstanding on this project. This is made even more simple by using the agile principle of story points, where each task should be worth 1 story point, or about 1 days worth of work. Again, due to the smaller scale of this project I was unable to utilise higher-level agile features, such as epics and stories and the higher story points that would be associated with those features.
 
-
-Figure 2: Image of the Kanban board I used to track project tasks.
+![Kanban](https://github.com/user-attachments/assets/4166f8f3-6bcd-47de-a9da-cdc66f446c96)
+**Figure 2:** Image of the Kanban board I used to track project tasks.
 
 ### MVP Development & Documentation
 
@@ -58,14 +57,14 @@ One benefit of having a modular code design, particularly during development, is
 
 Additionally, there is also a couple of benefits when it comes to error handling, as it is easier to identify and locate the code source causing the error. Firstly, this is beneficial from a development point-of-view, as erroneous code can be identified quicker and, hence, corrected quicker which contributes towards a more efficient development process. The second error handling benefit concerns the user experience. The modular code setup should enhance the user experience, as being able to identify which section, or function, of the code has failed should allow a more concise error to be shown to the user, which may be able to aid them in understanding and correcting the error. One example of where this is built into the code is during the API connection and data fetching function, which can be seen below in Figure 3. 
 
-
-Figure 3: Error handling with a try except block.
+![Error Handling](https://github.com/user-attachments/assets/fd21db1a-7c02-43db-9580-a42b1ba12bbd)
+**Figure 3:** Error handling with a try except block.
 
 Error handling such as this is also present for the interactive sections of the app, where the user is prompted to enter information such as location and quantity of forecast days. In this instance, it does some basic checking to ensure the location and number of days entered is valid, and returns a pop-up error message if not.
 
 The MVP product I have developed uses Matplotlib and Seaborn to generate the visualiastions and Tkinter to provide the Graphical User Interface (GUI) that the user interacts with. The two aforementioned visualisation tools are simple to work with, and provide good customisation options, such as the functionality to change colours and add legends and reference lines for fixed values. Tkinter has allowed me to develop the front-end GUI that the user experiences when running the product, and also is fairly simple  and practical to use. It also has the functionality, when combined with Matplotlib, to embed the visualisations into the GUI, instead of them just appearing in the Jupyter Notebook. This adds to create a cleaner and simpler to use interface for the user.
 
-In order to run the data product in the notebook, one must first ensure that Jupyter Notebook is installed on the system they are attempting to run the product one - if the system is running on company equipment then this requirement should already be satisfied. The product can be run on several programmes, e.g. Jupyter Notebook itself, or a code editor such as VSCode. However, regardless of the programme being used to run the product, Jupyter Notebook must first be launched from the command line. This will open the notebook dashboard, which, if one desires to run the product through Jupyter Notebook itself, is where the path to the .ipynb file can be located, loaded and run. If the user desires to run the product through another code editor, this has to be launched and connected to the running Jupyter server - this is the link in the command line that begins “http://localhost:8888/” . When attempting to run the notebook file in an editor such as VSCode, it will prompt the user to enter this link, so that the editor can connect to the Jupyter server and run the notebook.
+In order to run the data product in the notebook, one must first ensure that Jupyter Notebook is installed on the system they are attempting to run the product one - if the system is running on company equipment then this requirement should already be satisfied. The product can be run on several programmes, e.g. Jupyter Notebook itself, or a code editor such as VSCode. However, regardless of the programme being used to run the product, Jupyter Notebook must first be launched from the command line. This will open the notebook dashboard, which, if one desires to run the product through Jupyter Notebook itself, is where the path to the .ipynb file can be located, loaded and run. If the user desires to run the product through another code editor, this has to be launched and connected to the running Jupyter server - this is the link in the command line that begins “_http://localhost:8888/_” . When attempting to run the notebook file in an editor such as VSCode, it will prompt the user to enter this link, so that the editor can connect to the Jupyter server and run the notebook.
 
 #### Test Driven Development
 
