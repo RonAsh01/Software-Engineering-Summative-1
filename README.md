@@ -28,6 +28,7 @@ Once these requirements had been defined and I was confident that they satisfied
 The prototype that I developed included a launch page, that showcased the user input that would be required to generate the relevant visualisations using the API, as well as the interactive buttons that would allow the user to navigate between the different pages. The actions that these perform can be seen below in Figure 1, and are shown by the blue lines that connect   I also included a mock-up to show what the graphs would roughly look like, although, being a prototype, these graphs are static and just for demonstration purposes.
 
 
+
 Figure 1: Figma prototype, including the interactive flow.
 
 ### Planning & Project Management
