@@ -1,12 +1,12 @@
-Software Engineering Summative 1
+# Software Engineering Summative 1
 
-Proposing a new project
+### Proposing a new project
 
 One idea I had that for a simple web app, or interactive data product, that would work as a new project was a interactive data product that could pull weather related data from a third-party API source, and generate a suite of visualisations displaying this data that could be presented back to the user. This would also include managing a user input, so that the visualisations are specific to the users desired location and time frame.
 
 This project would have a couple of key uses within my organisation workplace, as accurate weather data can be difficult to ascertain. One key use could be to assess weather forecasts at alternate or diversion airports, prior to, or during, flight, as opposed to much closer to landing. This would also drive additional sustainability benefits, as it would allow for an assessment of whether the alternate airports being selected and filed for a flight are the most appropriate options, or whether there are other alternatives, with an acceptable weather forecast, that are closer. If this were the case, benefits could be derived from lower fuel costs, as less would have to be loaded initially, and less used in the case of a diversion. 
 
-Prototyping
+### Prototyping
 
 Prototyping is the process of developing a mock-up of a project solution or deliverable, with the main aim of gaining feedback from the stakeholders, regarding user experience and features. Prototypes are very rarely fully functional products, instead serve as a base for visual and interactive development. 
 
@@ -30,7 +30,7 @@ The prototype that I developed included a launch page, that showcased the user i
 
 Figure 1: Figma prototype, including the interactive flow.
 
-Planning & Project Management
+### Planning & Project Management
 
 Planning and project management is a key part of software development. It is the use of specific knowledge, tools and skills to work through the phases of a project life cycle towards a defined deliverable. There are several different approaches that can be taken for project management, each taking slightly different approaches and utilising different methodologies to manage and track the progress of the project. For the development and management of this project I opted to take a more agile approach, using a kanban board with swim lanes to track the project workflow. An agile approach is much less linear than a traditional waterfall approach, and instead involves breaking down the project development timeframe into much smaller, more iterative periods, often called ‘sprints’ or ‘scrums’. Additionally, this more incremental approach means more work can be developed simultaneously, instead of the more limited linear approach that is associated with a waterfall methodology. The agile methodology that I opted to use was Kanban. This involved using a kanban board with swimlanes that track project workflow. The required work is broken down into several smaller tasks that progress along 
 
@@ -46,7 +46,7 @@ Despite being a sole developer on this project, I found that the Kanban board an
 
 Figure 2: Image of the Kanban board I used to track project tasks.
 
-MVP Development & Documentation
+### MVP Development & Documentation
 
 Having created a prototype that met the criteria for the project deliverable, I could begin to work on actually developing a Minimum Viable Product (MVP) that closely replicated the prototype and could be delivered to the project stakeholders. An MVP does not necessarily always represent the final project deliverable, but is functional product that meets the original basic product expectations and can be reliably used by stakeholders in their day-to-day work. 
 
@@ -66,16 +66,16 @@ The MVP product I have developed uses Matplotlib and Seaborn to generate the vis
 
 In order to run the data product in the notebook, one must first ensure that Jupyter Notebook is installed on the system they are attempting to run the product one - if the system is running on company equipment then this requirement should already be satisfied. The product can be run on several programmes, e.g. Jupyter Notebook itself, or a code editor such as VSCode. However, regardless of the programme being used to run the product, Jupyter Notebook must first be launched from the command line. This will open the notebook dashboard, which, if one desires to run the product through Jupyter Notebook itself, is where the path to the .ipynb file can be located, loaded and run. If the user desires to run the product through another code editor, this has to be launched and connected to the running Jupyter server - this is the link in the command line that begins “http://localhost:8888/” . When attempting to run the notebook file in an editor such as VSCode, it will prompt the user to enter this link, so that the editor can connect to the Jupyter server and run the notebook.
 
-Test Driven Development
+#### Test Driven Development
 
 Test driven development is the process of building code by writing tests before writing the code that these tests are applicable to. This ensures that the code tested is not only always functional, but also as minimal and concise as possible. This could be integrated into the modular code design I have used, to develop the code for each function as efficiency as possible.
 
-Future Scope & Development
+### Future Scope & Development
 
 Being an MVP and not a final project deliverable, it means there is still scope for further development. One non-critical change I would like to make is in regards to the design of the visualisations. Although the visuals are functional, and include a colour blind friendly colour scheme, they are not the most impressive, and some additional visual enhancements could improve the GUI. I would also like to include the addition of some historical data, whether that is also sourced from an API or just stored locally within the code from previous run instances, as this could increase the scope in which this product is usable and applicable.
 
 Additional testing for accessibility and performance could also be a future point of development, or area that I would change should I ever undertake a similar project, although, being an MVP, some of this can be worked out with the stakeholders in the near future.
 
-Evaluation
+### Evaluation
 
 Overall, I think that the MVP I have developed and delivered successfully meets the original project scope and demands, and should provide value to the business area and applicable stakeholders.
